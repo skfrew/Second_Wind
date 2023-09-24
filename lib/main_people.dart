@@ -204,8 +204,8 @@ class MainPeople extends StatelessWidget {
                                         Container(
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
-                                          image: const AssetImage(
-                                              ''),
+                                          image:
+                                              const AssetImage('/seomoon.jpg'),
                                           fit: BoxFit.cover,
                                         ),
                                         borderRadius: BorderRadius.all(

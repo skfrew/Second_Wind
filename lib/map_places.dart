@@ -39,8 +39,7 @@ class MapPlaces extends StatelessWidget {
                                       Container(
                                         decoration: BoxDecoration(
                                           image: DecorationImage(
-                                            image: const AssetImage(
-                                                '/assets/map.jpg'),
+                                            image: const AssetImage('/map.jpg'),
                                             fit: BoxFit.cover,
                                           ),
                                         ),
@@ -144,8 +143,8 @@ class MapPlaces extends StatelessWidget {
                                                 Container(
                                                   decoration: BoxDecoration(
                                                     image: DecorationImage(
-                                                      image:
-                                                          const AssetImage(''),
+                                                      image: const AssetImage(
+                                                          '/kyungpook.png'),
                                                       fit: BoxFit.cover,
                                                     ),
                                                     borderRadius:
@@ -217,7 +216,8 @@ class MapPlaces extends StatelessWidget {
                                               Container(
                                                 decoration: BoxDecoration(
                                                   image: DecorationImage(
-                                                    image: const AssetImage(''),
+                                                    image: const AssetImage(
+                                                        '/kyungpook.png'),
                                                     fit: BoxFit.cover,
                                                   ),
                                                   borderRadius:
@@ -290,7 +290,8 @@ class MapPlaces extends StatelessWidget {
                                             Container(
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
-                                                  image: const AssetImage(''),
+                                                  image: const AssetImage(
+                                                      '/kyungpook.png'),
                                                   fit: BoxFit.cover,
                                                 ),
                                                 borderRadius: BorderRadius.all(
@@ -359,7 +360,8 @@ class MapPlaces extends StatelessWidget {
                                           Container(
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
-                                                image: const AssetImage(''),
+                                                image: const AssetImage(
+                                                    '/dalgoo.png'),
                                                 fit: BoxFit.cover,
                                               ),
                                               borderRadius: BorderRadius.all(
@@ -675,7 +677,7 @@ class MapPlaces extends StatelessWidget {
                 Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: const AssetImage(''),
+                      image: const AssetImage('/gps.png'),
                       fit: BoxFit.fill,
                     ),
                   ),

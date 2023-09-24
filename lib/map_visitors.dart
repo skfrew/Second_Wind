@@ -40,7 +40,7 @@ class MapVisitors extends StatelessWidget {
                                       Container(
                                         decoration: BoxDecoration(
                                           image: DecorationImage(
-                                            image: const AssetImage(''),
+                                            image: const AssetImage('/map.jpg'),
                                             fit: BoxFit.cover,
                                           ),
                                         ),
@@ -144,8 +144,8 @@ class MapVisitors extends StatelessWidget {
                                                 Container(
                                                   decoration: BoxDecoration(
                                                     image: DecorationImage(
-                                                      image:
-                                                          const AssetImage(''),
+                                                      image: const AssetImage(
+                                                          '/gps.png'),
                                                       fit: BoxFit.cover,
                                                     ),
                                                     borderRadius:
@@ -217,7 +217,8 @@ class MapVisitors extends StatelessWidget {
                                               Container(
                                                 decoration: BoxDecoration(
                                                   image: DecorationImage(
-                                                    image: const AssetImage(''),
+                                                    image: const AssetImage(
+                                                        '/gps.png'),
                                                     fit: BoxFit.cover,
                                                   ),
                                                   borderRadius:
@@ -290,7 +291,8 @@ class MapVisitors extends StatelessWidget {
                                             Container(
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
-                                                  image: const AssetImage(''),
+                                                  image: const AssetImage(
+                                                      '/gps.png'),
                                                   fit: BoxFit.cover,
                                                 ),
                                                 borderRadius: BorderRadius.all(
@@ -359,7 +361,8 @@ class MapVisitors extends StatelessWidget {
                                           Container(
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
-                                                image: const AssetImage(''),
+                                                image: const AssetImage(
+                                                    '/gps.png'),
                                                 fit: BoxFit.cover,
                                               ),
                                               borderRadius: BorderRadius.all(
@@ -674,7 +677,7 @@ class MapVisitors extends StatelessWidget {
                 Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: const AssetImage(''),
+                      image: const AssetImage('/gps.png'),
                       fit: BoxFit.fill,
                     ),
                   ),
