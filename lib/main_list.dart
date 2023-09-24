@@ -48,7 +48,8 @@ class MainList extends StatelessWidget {
                               child: Container(
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
-                                    image: const AssetImage(''),
+                                    image:
+                                        const AssetImage('assets/suseong1.jpg'),
                                     fit: BoxFit.cover,
                                   ),
                                   borderRadius: BorderRadius.circular(15.0),
@@ -163,7 +164,7 @@ class MainList extends StatelessWidget {
                                 Container(
                               decoration: BoxDecoration(
                                 image: DecorationImage(
-                                  image: const AssetImage(''),
+                                  image: const AssetImage('assets/song.jpg'),
                                   fit: BoxFit.cover,
                                 ),
                                 borderRadius: BorderRadius.circular(15.0),
@@ -277,7 +278,7 @@ class MainList extends StatelessWidget {
                                 Container(
                               decoration: BoxDecoration(
                                 image: DecorationImage(
-                                  image: const AssetImage(''),
+                                  image: const AssetImage('assets/seomoon.jpg'),
                                   fit: BoxFit.cover,
                                 ),
                                 borderRadius: BorderRadius.circular(15.0),

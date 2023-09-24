@@ -28,7 +28,8 @@ class MainList2 extends StatelessWidget {
                 child: Stack(
                   children: <Widget>[
                     Padding(
-                      padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, -192.0),
+                      padding:
+                          EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 192.0), //-192.0
                       child: SingleChildScrollView(
                         primary: false,
                         child: Wrap(
@@ -51,12 +52,6 @@ class MainList2 extends StatelessWidget {
                               'text_0': '국양총장',
                               'text_1': '258',
                             },
-                            {
-                              'text':
-                                  'I\'m looking for Roomates in DLF, Gurgaon',
-                              'text_0': 'DGIST로부터 약 1시간 30분, 대중교통',
-                              'text_1': '842',
-                            }
                           ].map((itemData) {
                             final text = itemData['text']!;
                             final text_0 = itemData['text_0']!;
@@ -74,7 +69,8 @@ class MainList2 extends StatelessWidget {
                                         Container(
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
-                                          image: const AssetImage(''),
+                                          image: const AssetImage(
+                                              'assets/suseong1.jpg'),
                                           fit: BoxFit.cover,
                                         ),
                                         borderRadius:
@@ -93,7 +89,7 @@ class MainList2 extends StatelessWidget {
                                     Pin(start: 0.5, end: 61.0),
                                     Pin(size: 67.0, end: 0.0),
                                     child: Text(
-                                      text,
+                                      text, //text,
                                       style: TextStyle(
                                         fontFamily: 'Segoe UI',
                                         fontSize: 18,
@@ -147,7 +143,8 @@ class MainList2 extends StatelessWidget {
                                         Container(
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
-                                          image: const AssetImage(''),
+                                          image: const AssetImage(
+                                              'assets/수성못2.jpg'),
                                           fit: BoxFit.cover,
                                         ),
                                         borderRadius: BorderRadius.all(
@@ -499,7 +496,7 @@ class MainList2 extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: const AssetImage(''),
+                    image: const AssetImage('assets/left-arrow.png'),
                     fit: BoxFit.fill,
                   ),
                 ),

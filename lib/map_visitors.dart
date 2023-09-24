@@ -28,8 +28,8 @@ class MapVisitors extends StatelessWidget {
                     child: Stack(
                       children: <Widget>[
                         Padding(
-                          padding:
-                              EdgeInsets.fromLTRB(0.0, 0.0, -196.0, -294.0),
+                          padding: EdgeInsets.fromLTRB(
+                              0.0, 0.0, 0.0, 0.0), //0.0, 0.0, -196.0, -294.0
                           child: Stack(
                             children: <Widget>[
                               Stack(

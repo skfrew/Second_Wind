@@ -27,8 +27,8 @@ class MapPlaces extends StatelessWidget {
                     child: Stack(
                       children: <Widget>[
                         Padding(
-                          padding:
-                              EdgeInsets.fromLTRB(0.0, 0.0, -196.0, -294.0),
+                          padding: EdgeInsets.fromLTRB(
+                              0.0, 0.0, 0.0, 0.0), //0.0, 0.0, -196.0, -294.0
                           child: Stack(
                             children: <Widget>[
                               Stack(
@@ -39,7 +39,8 @@ class MapPlaces extends StatelessWidget {
                                       Container(
                                         decoration: BoxDecoration(
                                           image: DecorationImage(
-                                            image: const AssetImage(''),
+                                            image: const AssetImage(
+                                                '/assets/map.jpg'),
                                             fit: BoxFit.cover,
                                           ),
                                         ),

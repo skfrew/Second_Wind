@@ -142,7 +142,7 @@ class MainPeople extends StatelessWidget {
                 child: Stack(
                   children: <Widget>[
                     Padding(
-                      padding: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, -32.0),
+                      padding: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0), //-32.0
                       child: SingleChildScrollView(
                         primary: false,
                         child: Wrap(
@@ -204,7 +204,8 @@ class MainPeople extends StatelessWidget {
                                         Container(
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
-                                          image: const AssetImage(''),
+                                          image: const AssetImage(
+                                              ''),
                                           fit: BoxFit.cover,
                                         ),
                                         borderRadius: BorderRadius.all(
